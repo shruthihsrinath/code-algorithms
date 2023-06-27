@@ -1,3 +1,6 @@
+/*
+Step 1: Find the lowest number from 
+*/
 function selectionSort() {
     let toSortArray = [5, 2, 3, 8, 6];
     for (let i = 0; i < n; i++) {
