@@ -24,6 +24,7 @@ git pull --rebase origin
    -  `git pull rebase`
    -  `git checkout branch`
    -  `git rebase main`
+   -  `git push --force`
 5. Squash to commit
 6. Merge PR to main
 
