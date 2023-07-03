@@ -11,3 +11,11 @@ Push existing repository from the command line:
 
 ### if there are already existing changes in main - pull
 git pull --rebase origin
+
+## Pull Request steps
+1. Resolve comments on pull request
+2. Push the changes to remote branch
+3. Wait for approval
+4. Rebase from main
+5. Squash to commit
+6. Merge PR to main
