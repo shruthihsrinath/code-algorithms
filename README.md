@@ -13,9 +13,13 @@ Push existing repository from the command line:
 git pull --rebase origin
 
 ## Pull Request steps
-1. Resolve comments on pull request
+1. Resolve comments on pull request 
 2. Push the changes to remote branch
 3. Wait for approval
 4. Rebase from main
+   - `git checkout main`
+   -  `git pull rebase`
+   -  `git checkout branch`
+   -  `git rebase main`
 5. Squash to commit
 6. Merge PR to main
