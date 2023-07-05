@@ -28,6 +28,9 @@ git pull --rebase origin
 5. Squash to commit
 6. Merge PR to main
 
+## Push changes to remote branch
+https://www.freecodecamp.org/news/git-push-local-branch-to-remote-how-to-publish-a-new-branch-in-git/
+
 ## Best practices for commit messages
 https://cbea.ms/git-commit/
 
