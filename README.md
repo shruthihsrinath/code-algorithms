@@ -39,3 +39,6 @@ https://docs.github.com/en/pull-requests/committing-changes-to-your-project/crea
 
 ## Best practices for naming branches
 https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/naming-git-branches/
+
+## Delete all local branches
+git branch | grep -v "main" | xargs git branch -D
