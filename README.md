@@ -11,6 +11,7 @@ Push existing repository from the command line:
 3. `git remote add origin https-repo-link`.
 4. `git branch -M main` rename the current branch to main.
 5. `git push -u origin main`  -  push changes to main
+6. `git push -f origin main` - force push changes to main
 
 ### If there are already existing changes in main - pull
 git pull --rebase origin
