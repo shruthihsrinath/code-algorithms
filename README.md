@@ -42,3 +42,6 @@ https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/us
 
 ## Delete all local branches
 git branch | grep -v "main" | xargs git branch -D
+
+## Delete local branch
+git branch -d <branch name>
