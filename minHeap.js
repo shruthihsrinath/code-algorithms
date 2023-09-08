@@ -68,5 +68,6 @@ class MinHeap {
 
         this.values[0] = end;
         this.heapifyDown(0);
+        return min;
     }
 }

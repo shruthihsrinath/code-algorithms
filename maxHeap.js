@@ -21,7 +21,7 @@ class MaxHeap {
     }
 
     isLeaf(index) {
-        if (index >= Math.floor(this.values.length / 2 && index <= this.values.length - 1))
+        if (index >= Math.floor(this.values.length / 2) && index <= this.values.length - 1)
             return true;
     }
 

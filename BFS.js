@@ -18,8 +18,8 @@ class BreadthFirstSearch {
             //any operation you want to conduct on the tempnode goes here
 
             this.edges.get(tempNode).filter(edge => !visited.has(edge)).forEach(element => {
-                visited.add(element);
                 queue.push(element);
+                visited.add(element);
             });
         }
     }
